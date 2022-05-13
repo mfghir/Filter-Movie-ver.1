@@ -33,7 +33,6 @@ function App() {
         activeGenre={activeGenre}
         setActiveGenre={setActiveGenre}
       />
-      {/* animate={{y:100}}  */}
       <motion.div layout className="popular-movies">
         <AnimatePresence>
           {filtered.map((movie) => {
